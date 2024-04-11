@@ -101,16 +101,16 @@ function plots(selectedValue){
             axis: { range: [null, 10] },
             bar: { color: "black" },
             steps: [
-              { range: [0, 1], color: "rgba(255, 255, 0, 1)" }, // Yellow with higher transparency
-              { range: [1, 2], color: "rgba(255, 255, 0, 0.80)" }, // Yellow with lower transparency
-              { range: [2, 3], color: "rgba(255, 255, 50, 0.6)" }, // Green
-              { range: [3, 4], color: "rgba(255, 255, 50, 0.4)" }, // Green
-              { range: [4, 5], color: "rgba(255, 255, 50, 0.2)" }, // Green
-              { range: [5, 6], color: "rgba(154, 205, 50, 0.2)" }, // Green
-              { range: [6, 7], color: "rgba(154, 205, 50, 0.4)" }, // Green
-              { range: [7, 8], color: "rgba(154, 205, 50, 0.6)" }, // Green
-              { range: [8, 9], color: "rgba(154, 205, 50, 0.8)" }, // Green
-              { range: [9, 10], color: "rgba(154, 205, 50, 1)" }, // Green
+              { range: [0, 1], color: "rgba(255, 255, 0, 1)" }, 
+              { range: [1, 2], color: "rgba(255, 255, 0, 0.80)" }, 
+              { range: [2, 3], color: "rgba(255, 255, 50, 0.6)" }, 
+              { range: [3, 4], color: "rgba(255, 255, 50, 0.4)" }, 
+              { range: [4, 5], color: "rgba(255, 255, 50, 0.2)" }, 
+              { range: [5, 6], color: "rgba(154, 205, 50, 0.2)" }, 
+              { range: [6, 7], color: "rgba(154, 205, 50, 0.4)" }, 
+              { range: [7, 8], color: "rgba(154, 205, 50, 0.6)" }, 
+              { range: [8, 9], color: "rgba(154, 205, 50, 0.8)" }, 
+              { range: [9, 10], color: "rgba(154, 205, 50, 1)" }, 
             ],
             colorscale: 'YlGn' // Using 'YlGn' color scale
           }
